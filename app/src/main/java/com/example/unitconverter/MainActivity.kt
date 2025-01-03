@@ -30,6 +30,9 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+fun UnitConverter() {}
+
+@Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
