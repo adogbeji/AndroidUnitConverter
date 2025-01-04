@@ -36,7 +36,6 @@ fun UnitConverter() {
     Column {
         // All UI elements will be stacked here below each other
         Row {
-            con
         }
     }
 }
