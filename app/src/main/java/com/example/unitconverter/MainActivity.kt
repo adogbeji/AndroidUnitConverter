@@ -24,7 +24,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+//                    Greeting("Android")
+                    UnitConverter()
                 }
             }
         }
@@ -35,7 +36,12 @@ class MainActivity : ComponentActivity() {
 fun UnitConverter() {
     Column {
         // All UI elements will be stacked here below each other
+//        Greeting(name = "Android")
+//        Greeting(name = "Android")
         Row {
+            // All UI elements will be stacked here next to each other
+            Greeting(name = "Android")
+            Greeting(name = "Android")
         }
     }
 }
