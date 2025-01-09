@@ -38,26 +38,26 @@ fun UnitConverter() {
         // All UI elements will be stacked here below each other
 //        Greeting(name = "Android")
 //        Greeting(name = "Android")
+        Text("Unit Converter")
         Row {
             // All UI elements will be stacked here next to each other
-            Greeting(name = "Android")
-            Greeting(name = "Android")
+
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+//@Composable
+//fun Greeting(name: String, modifier: Modifier = Modifier) {
+//    Text(
+//        text = "Hello $name!",
+//        modifier = modifier
+//    )
+//}
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     UnitConverterTheme {
-        Greeting("Android")
+//        Greeting("Android")
     }
 }
