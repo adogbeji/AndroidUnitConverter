@@ -46,6 +46,7 @@ fun UnitConverter() {
             // All UI elements will be stacked here next to each other
 
         }
+        Text("Result:")
     }
 }
 
@@ -57,7 +58,7 @@ fun UnitConverter() {
 //    )
 //}
 
-@Preview
+@Preview(showBackground = true)
 @Composable
 fun UnitConverterPreview() {
     UnitConverter()
