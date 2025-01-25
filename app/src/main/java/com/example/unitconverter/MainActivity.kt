@@ -13,6 +13,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.unitconverter.ui.theme.UnitConverterTheme
 
@@ -44,6 +45,7 @@ fun UnitConverter() {
         OutlinedTextField(value = "", onValueChange = {} )
         
         Row {
+            val context = LocalContext.current
             // All UI elements will be stacked here next to each other
 
             Button(onClick = { /*TODO*/ }) {
