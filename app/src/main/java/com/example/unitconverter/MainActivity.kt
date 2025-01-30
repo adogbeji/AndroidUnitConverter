@@ -1,6 +1,7 @@
 package com.example.unitconverter
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
@@ -48,7 +49,9 @@ fun UnitConverter() {
             val context = LocalContext.current
             // All UI elements will be stacked here next to each other
 
-            Button(onClick = { /*TODO*/ }) {
+            Button(onClick = { Toast.makeText(context, "Thanks for clicking!",
+                Toast.LENGTH_LONG).show() 
+            }) {
                 Text("Click")
             }
         }
