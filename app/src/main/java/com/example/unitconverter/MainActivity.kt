@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -46,14 +47,10 @@ fun UnitConverter() {
         OutlinedTextField(value = "", onValueChange = {} )
         
         Row {
-            val context = LocalContext.current
+//            val context = LocalContext.current
             // All UI elements will be stacked here next to each other
-
-            Button(onClick = { Toast.makeText(context, "Thanks for clicking!",
-                Toast.LENGTH_LONG).show() 
-            }) {
-                Text("Click")
-            }
+            Box {}
+            Box {}
         }
         Text("Result:")
     }
