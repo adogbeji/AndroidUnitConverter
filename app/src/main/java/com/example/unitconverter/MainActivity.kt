@@ -49,7 +49,11 @@ fun UnitConverter() {
         Row {
 //            val context = LocalContext.current
             // All UI elements will be stacked here next to each other
-            Box {}
+            Box {
+                Button(onClick = { /*TODO*/ }) {
+                    Text("Select")
+                }
+            }
             Box {}
         }
         Text("Result:")
