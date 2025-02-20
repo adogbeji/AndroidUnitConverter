@@ -55,10 +55,17 @@ fun UnitConverter() {
             Box {
                 Button(onClick = { /*TODO*/ }) {
                     Text("Select")
-                    Icon(Icons.Default.ArrowDropDown, contentDescription = "")
+                    Icon(Icons.Default.ArrowDropDown,
+                        contentDescription = "Arrow Down")
                 }
             }
-            Box {}
+            Box {
+                Button(onClick = { /*TODO*/ }) {
+                    Text("Select")
+                    Icon(Icons.Default.ArrowDropDown,
+                        contentDescription = "Arrow Down")
+                }
+            }
         }
         Text("Result:")
     }
