@@ -42,7 +42,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun UnitConverter() {
-    Column {
+    Column(
+        modifier = Modifier.fillMaxSize()
+    ) {
         // All UI elements will be stacked here below each other
 //        Greeting(name = "Android")
 //        Greeting(name = "Android")
